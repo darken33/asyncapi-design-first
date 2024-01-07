@@ -1,0 +1,6 @@
+com/sqli/pbousquet/hello/service/HelloService.class
+com/sqli/pbousquet/hello/Application.class
+com/sqli/pbousquet/hello/model/HelloMessagePayload.class
+com/sqli/pbousquet/hello/producer/DefaultServiceEventsProducer.class
+com/sqli/pbousquet/hello/producer/IDefaultServiceEventsProducer.class
+com/sqli/pbousquet/hello/producer/IDefaultServiceEventsProducer$HelloMessagePayloadHeaders.class

@@ -1,0 +1,5 @@
+/home/pbousquet/Workspaces/SQLI/Java/etudes/etude-asyncapi/demo/01-helloworld/provider/hello-producer/target/generated-sources/src/main/java/com/sqli/pbousquet/hello/model/HelloMessagePayload.java
+/home/pbousquet/Workspaces/SQLI/Java/etudes/etude-asyncapi/demo/01-helloworld/provider/hello-producer/target/generated-sources/src/main/java/com/sqli/pbousquet/hello/producer/DefaultServiceEventsProducer.java
+/home/pbousquet/Workspaces/SQLI/Java/etudes/etude-asyncapi/demo/01-helloworld/provider/hello-producer/target/generated-sources/src/main/java/com/sqli/pbousquet/hello/producer/IDefaultServiceEventsProducer.java
+/home/pbousquet/Workspaces/SQLI/Java/etudes/etude-asyncapi/demo/01-helloworld/provider/hello-producer/src/main/java/com/sqli/pbousquet/hello/service/HelloService.java
+/home/pbousquet/Workspaces/SQLI/Java/etudes/etude-asyncapi/demo/01-helloworld/provider/hello-producer/src/main/java/com/sqli/pbousquet/hello/Application.java

@@ -1,0 +1,43 @@
+asyncapi: '2.6.0'
+info:
+  title: Hello API
+  version: '1.0.0'
+  description: |
+    Simple Hello API Message.
+  license:
+    name: Apache 2.0
+    url: 'https://www.apache.org/licenses/LICENSE-2.0'
+
+servers:
+  local:
+    url: localhost:9092
+    protocol: kafka
+
+channels:
+  event.hello:
+    publish:
+      bindings:
+        kafka:
+          groupId: my-group
+      operationId: readHelloMessage
+      message:
+        $ref: '#/components/messages/helloMessage'
+    subscribe:
+      operationId: sendHelloMessage
+      message:
+        $ref: '#/components/messages/helloMessage'
+components:
+  messages:
+    helloMessage:
+      payload:
+        $ref: "#/components/schemas/helloMessagePayload"
+  schemas:
+    helloMessagePayload:
+      type: object
+      properties:
+        message:
+          type: string
+          pattern: '^Hello .+$'
+          examples:
+            - Hello Fifi
+          description: Hello message

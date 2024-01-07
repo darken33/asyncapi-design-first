@@ -1,0 +1,5 @@
+/home/pbousquet/Workspaces/SQLI/talks/asyncapi-design-first/demo/asyncapi-2/kafka/hello-receiver/target/generated-sources/src/main/java/com/sqli/pbousquet/hello/receiver/IReadHelloMessageConsumerService.java
+/home/pbousquet/Workspaces/SQLI/talks/asyncapi-design-first/demo/asyncapi-2/kafka/hello-receiver/src/main/java/com/sqli/pbousquet/hello/service/HelloService.java
+/home/pbousquet/Workspaces/SQLI/talks/asyncapi-design-first/demo/asyncapi-2/kafka/hello-receiver/src/main/java/com/sqli/pbousquet/hello/Application.java
+/home/pbousquet/Workspaces/SQLI/talks/asyncapi-design-first/demo/asyncapi-2/kafka/hello-receiver/target/generated-sources/src/main/java/com/sqli/pbousquet/hello/receiver/ReadHelloMessageConsumer.java
+/home/pbousquet/Workspaces/SQLI/talks/asyncapi-design-first/demo/asyncapi-2/kafka/hello-receiver/target/generated-sources/src/main/java/com/sqli/pbousquet/hello/model/HelloMessagePayload.java

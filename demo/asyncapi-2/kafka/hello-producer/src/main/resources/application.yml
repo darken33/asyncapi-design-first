@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        send-hello-message-out-0:
+          destination: event.hello.v0
+      kafka:
+        binder:
+          brokers: 'localhost:9092'
+logging:
+  level:
+    root: info
+    org:
+      springframework: info
+server:
+  port: 8080
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
